@@ -1,0 +1,311 @@
+@media (max-width: 970px) {
+    #searchbar {
+        font-size: 12px;
+    }
+    
+    .foodSearch.active #searchbar {
+        width: 100px;
+        padding: 0 10px;
+    }
+
+    .iconMenu { 
+        padding: 0;
+    }
+
+    header .icon_menu.icon-menu-active {
+        padding-right: 130px;
+    }
+
+    .foodSearch.active ul {
+        width: 150px;
+    }
+
+    header .recipes_menu li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 710px) {
+    #searchbar {
+        font-size: 12px;
+    }
+    
+    .foodSearch.active #searchbar {
+        width: 70px;
+        padding: 0 10px;
+    }
+
+    .iconMenu { 
+        padding: 0;
+    }
+
+    header .icon_menu.icon-menu-active {
+        padding-right: 100px;
+    }
+
+     /* Search Menu Options */ 
+    .foodSearch.active ul {
+        width: 120px;
+    }
+
+    header .recipes_menu li {
+        font-size: 16px;
+    }
+}
+ 
+@media (max-width: 650px) {
+
+    /* menu options css */
+    header .icon_menu {
+        display: inline;
+        width: 30px;
+        height: 30px;
+    }
+
+    .menuToggle:checked + .menu_icon .icon_close {
+        display: inline;
+        width: 20px;
+        height: 20px;
+        padding-left: 3px;
+    }
+
+
+    /* title and logo css */
+    header .img_header img {
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+    }
+    
+    header .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* search logo css */
+    header .search_header .foodSearch button #search {
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+
+    header .menu_bar {
+        font-size: 20px;
+    }
+
+    .menu_item {
+        font-size: 20px;
+    }
+
+    .menu_item .arrow {
+        font-size: 14px;
+    }
+
+    header .opt_menu {
+        top: 9%;
+        padding: 12px;
+        width: 145px;
+    }
+
+    .foodSearch.active ul {
+        width: 100px;
+    }
+
+    header .recipes_menu li {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    #searchbar {
+        font-size: 13px;
+    }
+
+    #searchbar::placeholder {
+        font-size: 10px;
+    }
+    
+    .foodSearch.active #searchbar {
+        width: 50px;
+        padding: 0 10px;
+    }
+
+    .iconMenu { 
+        padding: 0;
+    }
+
+    header .icon_menu.icon-menu-active {
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 400px) {
+    #searchbar {
+        font-size: 8px;
+    }
+    
+    .foodSearch.active #searchbar {
+        width: 50px;
+        padding: 0 0px;
+    }
+
+    .iconMenu { 
+        padding: 0;
+    }
+
+    header .icon_menu.icon-menu-active {
+        padding-right: 60px;
+    }
+}
+
+@media (max-width: 450px) {
+    /* menu options css */
+    header .icon_menu {
+        display: inline;
+        width: 20px;
+        height: 20px;
+    }
+
+    .menuToggle:checked + .menu_icon .icon_close {
+        display: inline;
+        padding-left: 0;
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    /* title and logo css */
+    header .img_header img {
+        display: flex;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+        
+    header .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    /* search logo css */
+    header .search_header .foodSearch button #search {
+        display: flex;
+        width: 20px;
+        height: 20px;
+    }
+
+    header .menu_bar {
+        font-size: 12px;
+    }
+
+    .menu_item {
+        font-size: 12px;
+    }
+
+    .menu_item .arrow {
+        font-size: 7px;
+    }
+
+    header .opt_menu {
+        top: 9%;
+        padding: 8px;
+        width: 90px;
+    }
+
+    .foodSearch.active ul {
+        width: 50px;
+        height: 200px;
+        top: 8%;
+        right: 8%;
+    }
+
+    header .recipes_menu li {
+        font-size: 8px;
+    }
+
+    .recipes_menu::-webkit-scrollbar {
+        width: 0px;
+    }
+}
+
+@media (max-width: 376px) {
+    /* menu options css */
+    header .icon_menu {
+        display: inline;
+        width: 20px;
+        height: 20px;
+    }
+
+    .menuToggle:checked + .menu_icon .icon_close {
+        display: inline;
+        padding-left: 0;
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    /* title and logo css */
+    header .img_header img {
+        display: flex;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+        
+    header .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    /* search logo css */
+    header .search_header .foodSearch button #search {
+        display: flex;
+        width: 20px;
+        height: 20px;
+    }
+
+    header .menu_bar {
+        font-size: 12px;
+    }
+
+    .menu_item {
+        font-size: 12px;
+    }
+
+    .menu_item .arrow {
+        font-size: 7px;
+    }
+
+    header .opt_menu {
+        top: 12%;
+        padding: 8px;
+        width: 90px;
+    }
+
+    .foodSearch.active ul {
+        width: 50px;
+        height: 200px;
+        top: 11%;
+        right: 8%;
+    }
+
+    header .recipes_menu li {
+        font-size: 8px;
+    }
+
+    .recipes_menu::-webkit-scrollbar {
+        width: 0px;
+    }
+}
+
