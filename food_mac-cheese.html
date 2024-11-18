@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./styles/main.css">
+        <script src="./scripts/main.js"></script>
+        <title>Mac and Cheese</title>
+    </head>
+    <body>
+        <header>
+            <div class="bar_header">
+                <!-- menu Icon -->
+                <div class="menu_bar" id="back_to_the_top">
+                    <input type="checkbox" id="menuToggle" class="menuToggle">
+    
+                    <!-- Label for the checkbox, which will serve as the menu icon -->
+                    <label for="menuToggle" class="menu_icon">
+                        <img src="./images/menus.png" class="icon_menu"/>
+                        <img src="./images/close.png" class="icon_close"/>
+                    </label>
+                    <ul class="opt_menu">
+                        <li class="opt_recipes"><a href="#" class="opt_recipes">All Recipes</a></li>
+                        <li>
+                            <input type="checkbox" id="mealsToggle" class="toggle_submenu">
+                            <label for="mealsToggle" class="menu_item">Type of Meals <span class="arrow">▼</span></label>
+                            <ul class="inside_meals">
+                                <li><a href="breakfast.html">Breakfast</a></li>
+                                <li><a href="lunch.html">Lunch</a></li>
+                                <li><a href="dinner.html">Dinner</a></li>
+                                <li><a href="desserts.html">Desserts</a></li>
+                            </ul>
+                        </li>
+                        <li class="opt_"><a href="drinks.html" class="opt_">Drinks</a></li>
+                        <li class="opt_aboutUs"><a href="aboutUs.html" class="opt_aboutUs">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- logo and title -->
+                <div class="center_menu">
+                    <div class="div_logo"><a href="index.html" class="img_header"><img src="./images/logo.png" id="logo"/></a></div>
+                    <div class="title"><p class="title"><a href="index.html">Cooking Recipes</a></p></div>
+                </div>
+                
+                <!-- search Icon -->
+                <div class="search_header">
+                    <div class="foodSearch">
+                        <input type="text" id="searchbar" onkeyup="search_recipe()" name="search" placeholder="Search the Recipe" class="hidden">
+                        <button type="submit" id="search_button">
+                            <img src="./images/search.png" id="search"/>
+                        </button>
+                        <ul id="recipes_menu" class="recipes_menu">
+                            <li><a href="food_alfredo.html">ALFREDO</a></li>
+                            <li><a href="drink_blue-lagoon.html">BLUE LAGOON</a></li>
+                            <li><a href="dessert_bombom-aberto.html">BOMBOM ABERTO</a></li>
+                            <li><a href="dessert_brigadeiro.html">BRIGADEIRO</a></li>
+                            <li><a href="dessert_brownie.html">BROWNIE</a></li>
+                            <li><a href="drink_caipirinha.html">CAIPIRINHA</a></li>
+                            <li><a href="drink_campari-spritz.html">CAMPARI SPRITZ</a></li>
+                            <li><a href="food_carreteiro-rice.html">CARRETEIRO RICE</a></li>
+                            <li><a href="breakfast_eggs-bacon.html">EGGS AND BACON</a></li>
+                            <li><a href="food_feijoada.html">FEIJOADA</a></li>
+                            <li><a href="food_lasagna.html">LASAGNA</a></li>
+                            <li><a href="food_mac-cheese.html">MAC AND CHEESE</a></li>
+                            <li><a href="breakfast_misto-quente.html">MISTO QUENTE</a></li>
+                            <li><a href="drink_moscow-mule.html">MOSCOW MULE</a></li>
+                            <li><a href="food_parmegiana.html">PARMEGIANA</a></li>
+                            <li><a href="food_prato-feito.html">PRATO FEITO</a></li>
+                            <li><a href="dessert_pudim.html">PUDIM</a></li>
+                            <li><a href="dessert_strawberry-mousse.html">STRAWBERRY MOUSSE</a></li>
+                            <li><a href="food_strogonoff.html">STROGONOFF</a></li>
+                            <li><a href="breakfast_tapioca.html">TAPIOCA</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+            </div>
+        </header>
+    </body>
+</html>

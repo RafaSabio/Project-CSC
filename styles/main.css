@@ -105,3 +105,62 @@ main .img_body {
     transform: scale(1.05);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
 }
+
+#image-big {
+    object-position: 25% 75%;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    background-color: rgb(238, 177, 96);
+    margin-top: 30px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+footer p {
+    display: block;
+    float: right;
+    padding-right: 20px;
+    text-decoration: underline;
+    align-items: center;
+}
+
+footer a {
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+footer img {
+    width: 10px;
+    height: 10px;
+    padding-left: 5px;
+}
+
+#arrow-top {
+    height: 15px;
+    width: 18px;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+}
