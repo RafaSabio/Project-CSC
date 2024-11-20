@@ -63,7 +63,7 @@
 
     /* footer */
     footer ul {
-        gap: 30px !important;
+        gap: 20px !important;
     }
 
 }
@@ -138,7 +138,16 @@
         display: none !important;
     }
 
-    
+    .footer-text {
+        font-size: 12px !important;
+    }
+
+    #footer-logo {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+
 }
  
 @media (max-width: 650px) {
