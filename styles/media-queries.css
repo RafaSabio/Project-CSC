@@ -26,7 +26,12 @@
     }
 
     .picture-and-text p {
-        font-size: 25px;
+        font-size: 25px !important;
+    }
+
+    /* footer */
+    footer ul {
+        gap: 80px !important;
     }
 }
 
@@ -56,7 +61,19 @@
         font-size: 16px;
     }
 
+    /* footer */
+    footer ul {
+        gap: 30px !important;
+    }
+
 }
+
+@media (max-width: 750px) {
+    /* footer */
+    footer ul {
+        gap: 10px !important;
+    }
+} 
 
 @media (max-width: 710px) {
     #searchbar {
@@ -115,6 +132,13 @@
     .picture-and-text p {
         font-size: 25px !important;
     }
+
+    /* footer */
+    footer ul {
+        display: none !important;
+    }
+
+    
 }
  
 @media (max-width: 650px) {

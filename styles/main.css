@@ -121,8 +121,6 @@ footer ul {
 }
 
 footer p {
-    display: block;
-    float: right;
     padding-right: 20px;
     text-decoration: underline;
     align-items: center;
