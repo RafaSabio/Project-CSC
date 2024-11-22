@@ -86,9 +86,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     menuToggle.addEventListener("change", function() {
-        menu.style.display = menuToggle.checked ? "block" : "none"; 
+        menu.style.display = menuToggle.checked ? "block" : "none";
     });
-
 
     document.addEventListener("click", function (event) {
         const isClickInsideMenu = menu.contains(event.target);

@@ -33,6 +33,7 @@ header .icon_menu {
 
 header .icon_menu.icon-menu-active {
     padding-right: 230px;
+    
 }
 
 /* X icon */
@@ -54,6 +55,7 @@ header .icon_close {
 input[type="checkbox"].menuToggle:not(:checked) ~ .opt_menu {
     display: none;
 }
+
 /* ------------------------------------------------- */
 
 header .menu_bar {
@@ -118,6 +120,7 @@ header .inside_meals li{
 .inside_meals li:hover {
     background-color: rgb(240, 138, 37);
 }
+
 /* ------------------------------------------------- */
 
 .menu_item {
