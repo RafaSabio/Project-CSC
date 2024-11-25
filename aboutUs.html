@@ -9,42 +9,41 @@
     </head>
 
     <body>
-        <div class="wrapper">
-            <header>
-                <div class="bar_header">
-                    <!-- menu Icon -->
-                    <div class="menu_bar" id="back_to_the_top">
-                        <input type="checkbox" id="menuToggle" class="menuToggle">
-        
-                        <!-- Label for the checkbox, which will serve as the menu icon -->
-                        <label for="menuToggle" class="menu_icon">
-                            <img src="./images/menus.png" class="icon_menu"/>
-                            <img src="./images/close.png" class="icon_close"/>
-                        </label>
-                        <ul class="opt_menu">
-                            <li class="opt_recipes"><a href="#" class="opt_recipes">All Recipes</a></li>
-                            <li>
-                                <input type="checkbox" id="mealsToggle" class="toggle_submenu">
-                                <label for="mealsToggle" class="menu_item">Type of Meals <span class="arrow">▼</span></label>
-                                <ul class="inside_meals">
-                                    <li><a href="breakfast.html">Breakfast</a></li>
-                                    <li><a href="lunch.html">Lunch</a></li>
-                                    <li><a href="dinner.html">Dinner</a></li>
-                                    <li><a href="desserts.html">Desserts</a></li>
-                                </ul>
-                            </li>
-                            <li class="opt_"><a href="drinks.html" class="opt_">Drinks</a></li>
-                            <li class="opt_aboutUs"><a href="aboutUs.html" class="opt_aboutUs">About Us</a></li>
-                        </ul>
-                    </div>
+        <header>
+            <div class="bar_header">
+                <!-- menu Icon -->
+                <div class="menu_bar" id="back_to_the_top">
+                    <input type="checkbox" id="menuToggle" class="menuToggle">
+    
+                    <!-- Label for the checkbox, which will serve as the menu icon -->
+                    <label for="menuToggle" class="menu_icon">
+                        <img src="./images/menus.png" class="icon_menu"/>
+                        <img src="./images/close.png" class="icon_close"/>
+                    </label>
+                    <ul class="opt_menu">
+                        <li class="opt_recipes"><a href="#" class="opt_recipes">All Recipes</a></li>
+                        <li>
+                            <input type="checkbox" id="mealsToggle" class="toggle_submenu">
+                            <label for="mealsToggle" class="menu_item">Type of Meals <span class="arrow">▼</span></label>
+                            <ul class="inside_meals">
+                                <li><a href="breakfast.html">Breakfast</a></li>
+                                <li><a href="lunch.html">Lunch</a></li>
+                                <li><a href="dinner.html">Dinner</a></li>
+                                <li><a href="desserts.html">Desserts</a></li>
+                            </ul>
+                        </li>
+                        <li class="opt_"><a href="drinks.html" class="opt_">Drinks</a></li>
+                        <li class="opt_aboutUs"><a href="aboutUs.html" class="opt_aboutUs">About Us</a></li>
+                    </ul>
+                </div>
+            
+                <!-- logo and title -->
+                <div class="center_menu">
+                    <div class="div_logo"><a href="index.html" class="img_header"><img src="./images/logo.png" id="logo"/></a></div>
+                    <div class="title"><p class="title"><a href="index.html">Cooking Recipes</a></p></div>
+                </div>
                     
-                    <!-- logo and title -->
-                    <div class="center_menu">
-                        <div class="div_logo"><a href="index.html" class="img_header"><img src="./images/logo.png" id="logo"/></a></div>
-                        <div class="title"><p class="title"><a href="index.html">Cooking Recipes</a></p></div>
-                    </div>
-                    
-                    <!-- search Icon -->
+                <!-- search Icon -->
                     <div class="search_header">
                         <div class="foodSearch">
                             <input type="text" id="searchbar" onkeyup="search_recipe()" name="search" placeholder="Search the Recipe" class="hidden">
@@ -79,22 +78,16 @@
                 </div>
             </header>
             <main>
-                <div class="div-text-aboutUs">
-                    <div class="aboutUs-title">
-                        <p class="aboutUs-title">About Us</p>
-                    </div>
-                    <div class="aboutUs-text">
-                        <p class="aboutUs-text">
+                <div class="content-wrapper">
+                    <h1 class="title-aboutUs">About Us</h1>
+                    <p class="main-text">
                         This is a website designed by Rafael Sabio. The purpose is to show some of the best recipes. 
-                        Also, a mix of cultures which involves recipes from Brazil, United States, Italy and some other countries.
+                        Also, a mix of cultures which involves recipes from Brazil, United States, Italy, and some other countries. 
                         It is simple but very well thought and designed for you and for your best experiences.
-                        </p>
-                    </div>
-                    <div class="aboutUs-end">
-                        <p class="aboutUs-subtitle">Hope You Enjoyed The Website and Have the Best Experiences with the Recipes</p>
-                    </div>
+                    </p>
+                    <p class="end-text">Hope you Enjoy the Website and Have the Best Experiences with the Recipes</p>
                 </div>
-            </main> 
+            </main>
             <footer>
                 <a href="#back_to_the_top" class="footer-text">Back to the Top <img src="./images/top-arrow.png" id="arrow-top"/></a>
                 <ul>

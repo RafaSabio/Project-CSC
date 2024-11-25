@@ -1,50 +1,119 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html body {
+html, body {
     height: 100%;
+    line-height: 1.6;
 }
 
-.wrapper {
+body {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
-main .div-text-aboutUs {
+header, footer {
+    width: 100%;
+}
+
+main {
+    flex: 1;
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 100%;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
 }
 
-main .aboutUs-title {
-    margin-top: 70px;
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-bottom: 1px solid black;
-    max-width: 900px;
-}
-
-main .aboutUs-text{
-    font-size: 40px;
-    max-width: 900px; 
-    margin-top: 40px;  
-}
-
-main .aboutUs-end {
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 60px;
-    margin-bottom: 20px;
+.content-wrapper {
+    text-align: center;
     max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-footer {
-    position: relative;
+.content-wrapper .title-aboutUs {
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-decoration: underline 1px solid black;
+    text-underline-offset: 4px;
 }
 
+.content-wrapper .main-text {
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.content-wrapper .end-text {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+@media (max-width: 1200px) {
+    main {
+        padding: 15px;
+    }
+
+    .content-wrapper .title-aboutUs {
+        font-size: 29px;
+    }
+
+    .content-wrapper .main-text,
+    .content-wrapper .end-text {
+        font-size: 18px;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .content-wrapper {
+        padding: 0 10px;
+    }
+
+    .content-wrapper .title-aboutUs {
+        font-size: 24px;
+    }
+
+    .content-wrapper .main-text,
+    .content-wrapper .end-text {
+        font-size: 16px;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 650px) {
+    .content-wrapper .main-text,
+    .content-wrapper .end-text {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 8px;
+    }
+
+    .content-wrapper {
+        padding: 0 8px;
+    }
+
+    .content-wrapper .title-aboutUs {
+        font-size: 19px;
+    }
+
+    .content-wrapper .main-text,
+    .content-wrapper .end-text {
+        font-size: 14px;
+        max-width: 200px;
+    }
+}
