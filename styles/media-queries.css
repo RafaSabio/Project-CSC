@@ -164,7 +164,7 @@
     main .aboutUs-end {
         font-size: 25px !important;
         max-width: 600px !important;
-        margin-top: 10px !important;
+        margin-top: 94px !important;
     }
 }
 
@@ -416,7 +416,7 @@
     main .aboutUs-end {
         font-size: 20px !important;
         max-width: 450px !important;
-        margin-top: 10px !important;
+        margin-top: 50px !important;
     }
 }
 
@@ -504,7 +504,6 @@
     main .aboutUs-end {
         font-size: 18px !important;
         max-width: 350px !important;
-        margin-top: 0px !important;
     }
 }
 
@@ -656,13 +655,11 @@
         font-size: 15px !important;
         max-width: 300px !important;
         margin-top: 60px;   
-        flex: 1 !important; 
     }
     
     main .aboutUs-end {
         font-size: 15px !important;
         max-width: 300px !important;
-        flex: 1 !important;
     }
 }
 
