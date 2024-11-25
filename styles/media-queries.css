@@ -14,6 +14,24 @@
     }
 }
 
+@media (max-width: 1200px) {
+    main .aboutUs-title {
+        font-size: 45px !important;
+        max-width: 800px !important;
+    }
+    
+    main .aboutUs-text{
+        font-size: 35px !important;
+        max-width: 800px !important;   
+    }
+    
+    main .aboutUs-end {
+        font-size: 35px !important;
+        max-width: 750px !important;
+        margin-top: 60px !important;
+    }
+}
+
 @media (max-width: 1080px) { 
     /* Main */
     main .div_title_main #welcome{
@@ -111,6 +129,43 @@
         font-size: 30px !important;
     }
 
+    /* About Us */
+    main .aboutUs-title {
+        font-size: 40px !important;
+        max-width: 750px !important;
+        margin-top: 50px !important;
+    }
+    
+    main .aboutUs-text{
+        font-size: 30px !important;
+        max-width: 750px !important;   
+    }
+    
+    main .aboutUs-end {
+        font-size: 30px !important;
+        max-width: 650px !important;
+    }
+
+}
+
+@media (max-width: 850px) {
+    /* About Us */
+    main .aboutUs-title {
+        font-size: 35px !important;
+        max-width: 700px !important;
+        margin-top: 50px !important;
+    }
+    
+    main .aboutUs-text{
+        font-size: 25px !important;
+        max-width: 600px !important;   
+    }
+    
+    main .aboutUs-end {
+        font-size: 25px !important;
+        max-width: 600px !important;
+        margin-top: 10px !important;
+    }
 }
 
 @media (max-width: 750px) {
@@ -348,6 +403,23 @@
         font-size: 18px !important;
     }
 
+    /* About Us */
+    main .aboutUs-title {
+        font-size: 30px !important;
+        max-width: 650px !important;
+        margin-top: 50px !important;
+    }
+    
+    main .aboutUs-text{
+        font-size: 22px !important;
+        max-width: 500px !important;   
+    }
+    
+    main .aboutUs-end {
+        font-size: 20px !important;
+        max-width: 450px !important;
+        margin-top: 10px !important;
+    }
 }
 
 @media (max-width: 560px) {
@@ -417,6 +489,24 @@
 
     main .ingredients li, .how-to-make li {
         font-size: 15px !important;
+    }
+
+    /* About Us */
+    main .aboutUs-title {
+        font-size: 25px !important;
+        max-width: 600px !important;
+        margin-top: 50px !important;
+    }
+    
+    main .aboutUs-text{
+        font-size: 20px !important;
+        max-width: 400px !important;   
+    }
+    
+    main .aboutUs-end {
+        font-size: 18px !important;
+        max-width: 350px !important;
+        margin-top: 0px !important;
     }
 }
 
@@ -555,6 +645,29 @@
 
     main .ingredients li, .how-to-make li {
         font-size: 15px !important;
+    }
+
+    /* About Us */
+    main .div-text-aboutUs {
+        min-height: 84.5vh !important;
+    }
+    main .aboutUs-title {
+        font-size: 22px !important;
+        max-width: 500px !important;
+        margin-top: 40px !important;
+    }
+    
+    main .aboutUs-text{
+        font-size: 15px !important;
+        max-width: 300px !important;
+        margin-top: 60px;   
+        flex: 1 !important; 
+    }
+    
+    main .aboutUs-end {
+        font-size: 15px !important;
+        max-width: 300px !important;
+        flex: 1 !important;
     }
 }
 
@@ -713,6 +826,29 @@
 
     main .ingredients li, .how-to-make li {
         font-size: 13px !important;
+    }
+
+    /* About Us */
+    main .div-text-aboutUs {
+        min-height: 78vh !important;
+    }
+
+    main .aboutUs-title {
+        font-size: 20px !important;
+        max-width: 400px !important;
+        margin-top: 30px !important;
+    }
+    
+    main .aboutUs-text{
+        font-size: 15px !important;
+        max-width: 200px !important;   
+        margin-top: 30px !important;
+    }
+    
+    main .aboutUs-end {
+        font-size: 15px !important;
+        max-width: 200px !important;
+        margin-top: 50px !important;
     }
 }
 
