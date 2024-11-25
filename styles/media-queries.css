@@ -269,8 +269,6 @@
         width: 30px !important;
         height: 30px !important;
     }
-
-
 }
  
 @media (max-width: 650px) {
@@ -648,9 +646,6 @@
     }
 
     /* About Us */
-    main .div-text-aboutUs {
-        min-height: 84.5vh !important;
-    }
     main .aboutUs-title {
         font-size: 22px !important;
         max-width: 500px !important;
@@ -829,10 +824,6 @@
     }
 
     /* About Us */
-    main .div-text-aboutUs {
-        min-height: 78vh !important;
-    }
-
     main .aboutUs-title {
         font-size: 20px !important;
         max-width: 400px !important;

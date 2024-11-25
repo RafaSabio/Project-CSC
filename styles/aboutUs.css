@@ -3,7 +3,7 @@ main .div-text-aboutUs {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    min-height: 86.5vh;
+    min-height: 100%;
 }
 
 main .aboutUs-title {
