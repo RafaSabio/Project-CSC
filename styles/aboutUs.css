@@ -67,7 +67,7 @@ main {
     .content-wrapper .main-text,
     .content-wrapper .end-text {
         font-size: 18px;
-        max-width: 600px;
+        max-width: 700px;
     }
 }
 
@@ -87,14 +87,14 @@ main {
     .content-wrapper .main-text,
     .content-wrapper .end-text {
         font-size: 16px;
-        max-width: 500px;
+        max-width: 600px;
     }
 }
 
 @media (max-width: 650px) {
     .content-wrapper .main-text,
     .content-wrapper .end-text {
-        max-width: 350px;
+        max-width: 450px;
     }
 }
 
@@ -114,6 +114,6 @@ main {
     .content-wrapper .main-text,
     .content-wrapper .end-text {
         font-size: 14px;
-        max-width: 200px;
+        max-width: 300px;
     }
 }
