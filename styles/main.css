@@ -3,6 +3,7 @@
 @import url("../styles/recipesPage.css");
 @import url("../styles/aboutUs.css");
 @import url("../styles/all-recipes.css");
+@import url("../styles/type-recipes.css");
 
 * {
     font-family: Arial, Helvetica, sans-serif;

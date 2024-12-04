@@ -1,0 +1,125 @@
+.type-recipes-h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    color: #333;
+}
+
+.section-type-recipes {
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+.section-type-recipes h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: auto;
+    max-width: 100%;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: darkorange;
+}
+
+@media (max-width: 1024px) {
+    .card {
+        max-width: calc(400px - 50px);
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card img{
+        max-width: 100%;
+        height: 245px;
+        display: block;
+    }
+
+    .type-recipes-h1 {
+        margin-top: 50px;
+    }
+
+    .section-type-recipes {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: calc(400px - 100px);
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card img{
+        max-width: 100%;
+        height: 210px;
+        display: block;
+    }
+
+    .type-recipes-h1 {
+        margin-top: 40px;
+    }
+
+    .section-type-recipes {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .button {
+        font-size: 12px;
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card {
+        max-width: calc(400px - 150px);
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card img{
+        max-width: 100%;
+        height: 175px;
+        display: block;
+    }
+
+    .type-recipes-h1 {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    .section-type-recipes {
+        padding-top: 25px;
+    }
+}
