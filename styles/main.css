@@ -136,7 +136,7 @@ footer a {
 }
 
 footer img {
-    width: 15px;
+    width: 18px;
     height: 15px;
     padding-left: 5px;
 }
@@ -157,5 +157,5 @@ footer img {
     justify-content: center;
     align-items: center;
     width: 40px;
-    height: 40px;
+    height: 35px;
 }
