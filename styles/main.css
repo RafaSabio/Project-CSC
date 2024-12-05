@@ -136,8 +136,8 @@ footer a {
 }
 
 footer img {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     padding-left: 5px;
 }
 
@@ -156,6 +156,6 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 }
