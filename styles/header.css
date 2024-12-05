@@ -47,7 +47,7 @@ header .icon_close {
 
 .menuToggle:checked + .menu_icon .icon_close {
     display: inline;
-    width: 45px;
+    width: 40px;
     height: 25px;
     padding-left: 10px;
 }
